@@ -6,8 +6,17 @@ public class Main {
 
         Greeter greeter = new Greeter();
 
-        HelloGreeting helloGreeting = new HelloGreeting();
+        // Greeting helloGreeting = new HelloGreeting(); majbur nisti lozuman in karo koni. mituni:
+        Greeting innerClassGreeting = new Greeting() {
+            @Override
+            public void perform() {
+                System.out.println("Hello :D");
+            }
+        };
 
-        MyLambda myLambdaFunction = () -> System.out.println("Hello :D");
+        Greeting lambdaGreeting = () -> System.out.println("Hello :D");
+
+        lambdaGreeting.perform();
+        innerClassGreeting.perform();
     }
 }
