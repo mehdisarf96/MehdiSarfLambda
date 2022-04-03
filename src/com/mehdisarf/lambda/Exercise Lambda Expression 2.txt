@@ -1,0 +1,172 @@
+doubleNumberFunction = public int makeItDouble(int a) {
+        return a * 2;
+    }
+--------------------------------------------------------
+
+
+*********************************
+                1
+*********************************
+doubleNumberFunction = int makeItDouble(int a) {
+        return a * 2;
+    }
+
+
+*********************************
+                2
+*********************************
+doubleNumberFunction = int (int a) {
+        return a * 2;
+    }
+
+
+*********************************
+                3
+*********************************
+doubleNumberFunction = (int a) {
+        return a * 2;
+    }
+
+
+*********************************
+                4
+*********************************
+
+doubleNumberFunction = (int a) -> {
+        return a * 2;
+    }
+
+
+*********************************
+                5
+*********************************
+
+doubleNumberFunction = (int a) -> return a * 2;
+
+
+
+*********************************
+                6
+*********************************
+
+doubleNumberFunction = (int a) -> a * 2;
+
+
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+
+addFunction = (int a,int b) -> a / b;
+
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+
+
+safeDivideFunction = public int divide(int a, int b) {
+        if (b == 0)
+            return 0;
+        return a / b;
+    }
+
+
+*********************************
+                1
+*********************************
+
+safeDivideFunction = int divide(int a, int b) {
+        if (b == 0)
+            return 0;
+        return a / b;
+    }
+
+*********************************
+                2
+*********************************
+
+safeDivideFunction = int (int a, int b) {
+        if (b == 0)
+            return 0;
+        return a / b;
+    }
+
+*********************************
+                3
+*********************************
+
+safeDivideFunction = (int a, int b) {
+        if (b == 0)
+            return 0;
+        return a / b;
+    }
+
+*********************************
+                4
+*********************************
+
+safeDivideFunction = (int a, int b) -> {
+        if (b == 0)
+            return 0;
+        return a / b;
+    }
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+
+
+stringLengthCountFunction = public int countStringLength(String string){
+        return string.length();
+}
+
+
+
+*********************************
+                1
+*********************************
+
+stringLengthCountFunction = int countStringLength(String string){
+        return string.length();
+}
+
+
+*********************************
+                2
+*********************************
+
+stringLengthCountFunction = int (String string){
+        return string.length();
+}
+
+
+*********************************
+                3
+*********************************
+
+stringLengthCountFunction = (String string){
+        return string.length();
+}
+
+*********************************
+                4
+*********************************
+
+stringLengthCountFunction = (String string) -> {
+        return string.length();
+}
+
+
+*********************************
+                5
+*********************************
+
+stringLengthCountFunction = (String string) -> return string.length();
+
+
+*********************************
+                6
+*********************************
+
+stringLengthCountFunction = (String string) -> string.length();
