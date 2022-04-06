@@ -5,12 +5,18 @@ import java.util.function.BiConsumer;
 public class ExceptionHandlingExample {
     public static void main(String[] args) {
 
-        int numbers[] = {1, 2, 3, 4, 5, 6};
+        int[] numbers = {1, 2, 3, 4, 5, 6};
         int key = 3;
 
-        // Behavior behavior = (a, b) -> System.out.println(a / b);
+        BiConsumer<Integer, Integer> consumer = (a, b) -> {
+            try {
 
-        BiConsumer<Integer, Integer> consumer = (a, b) -> System.out.println(a / b); // use Standard Functional Interface from java.util.function instead of using my handmade interface (Behavior).
+                System.out.println(a / b);
+
+            } catch (ArithmeticException e) {
+                System.out.println("An Arithmetic Exception happened.");
+            }
+        };
 
         process(numbers, key, consumer);
     }
@@ -21,8 +27,4 @@ public class ExceptionHandlingExample {
         }
     }
 }
-
-//  interface Behavior {
-//      void doThat(int a, int b);
-//  }
 
