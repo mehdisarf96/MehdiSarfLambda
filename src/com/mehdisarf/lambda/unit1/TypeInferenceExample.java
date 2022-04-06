@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda;
+package com.mehdisarf.lambda.unit1;
 
 public class TypeInferenceExample {
     public static void main(String[] args) {

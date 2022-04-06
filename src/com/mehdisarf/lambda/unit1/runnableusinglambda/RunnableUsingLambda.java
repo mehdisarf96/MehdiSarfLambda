@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda.runnableusinglambda;
+package com.mehdisarf.lambda.unit1.runnableusinglambda;
 
 public class RunnableUsingLambda {
 

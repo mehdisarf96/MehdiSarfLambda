@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda.exercise;
+package com.mehdisarf.lambda.unit1.exercise;
 
 public class Person {
 

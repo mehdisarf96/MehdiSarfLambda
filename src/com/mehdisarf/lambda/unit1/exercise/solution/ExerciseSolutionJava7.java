@@ -1,6 +1,6 @@
-package com.mehdisarf.lambda.exercise.solution;
+package com.mehdisarf.lambda.unit1.exercise.solution;
 
-import com.mehdisarf.lambda.exercise.Person;
+import com.mehdisarf.lambda.unit1.exercise.Person;
 
 import java.util.Arrays;
 import java.util.Comparator;
