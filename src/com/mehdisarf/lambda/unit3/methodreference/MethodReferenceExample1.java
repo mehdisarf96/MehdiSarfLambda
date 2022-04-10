@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda.unit3;
+package com.mehdisarf.lambda.unit3.methodreference;
 
 public class MethodReferenceExample1 {
 

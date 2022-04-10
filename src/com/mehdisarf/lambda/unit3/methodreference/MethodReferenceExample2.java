@@ -1,6 +1,6 @@
-package com.mehdisarf.lambda.unit3;
+package com.mehdisarf.lambda.unit3.methodreference;
 
-import com.mehdisarf.lambda.unit1.exercise.Person;
+import com.mehdisarf.lambda.common.Person;
 
 import java.util.Arrays;
 import java.util.List;

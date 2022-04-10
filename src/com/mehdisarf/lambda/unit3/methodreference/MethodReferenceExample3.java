@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda.unit3;
+package com.mehdisarf.lambda.unit3.methodreference;
 
 import java.util.function.Consumer;
 
