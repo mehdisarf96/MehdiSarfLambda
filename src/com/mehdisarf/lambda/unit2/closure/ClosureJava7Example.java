@@ -1,4 +1,4 @@
-package com.mehdisarf.lambda.unit2;
+package com.mehdisarf.lambda.unit2.closure;
 
 public class ClosureJava7Example {
     public static void main(String[] args) {
