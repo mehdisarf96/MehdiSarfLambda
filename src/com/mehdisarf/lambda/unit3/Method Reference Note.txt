@@ -1,0 +1,26 @@
+now this is another example where you can use a method reference.
+here is a second example where you have one input argument and you are calling a method with that same argument.  so again this is being a pass-through. you are saying: "take this value then pass it to sout."
+
+now what did the previous method reference look like? 
+it looked like: 	theNameOfTheClass::theMethodItself
+
+why? because the method was a static method. 
+however in this example, this is not a static method. this is an instance method. System.out.println(). 
+you see here, you're using a static reference (System) to get the 'out' object. but out is not a static reference. it's an instance. and you're calling a println() on that instance.
+
+so in order to replace this with a method reference, you're going to have to take the instance
+(ke inja mishe System.out) and then :: and then the method name.
+
+'System.out' which is basically the instance on which the println() method has been called. (System.out::println)
+now this is again a shorthand for the Java compiler to say: "okay I'm taking an input argument and
+then passing it in."
+now how does it know that it needs an input argument? because this is taking the place of the consumer.
+a consumer is something that takes in an input argument. so if a method reference is taking a place of
+something that does not accept an input argument, tell on the compiler knows that "ok. this is just
+a simple method call without any input arguments.". however if a method reference takes the place of a consumer
+then it knows that there is something that needs to be passed in to that method. to this sout.
+
+        p -> method(p)
+        and
+        () -> method ()
+        these two structures can be replaced by method reference.
